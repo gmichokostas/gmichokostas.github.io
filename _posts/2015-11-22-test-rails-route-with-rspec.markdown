@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Test Rails routes with RSpec"
+title: "Test custom Rails routes with RSpec"
 date: 2015-11-22 22:17:27
 categories: tests
 ---
