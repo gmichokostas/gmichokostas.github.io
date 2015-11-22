@@ -3,6 +3,7 @@ layout: post
 title: "Test custom Rails routes with RSpec"
 date: 2015-11-22 22:17:27
 categories: tests
+comments: true
 ---
 Recently I was reading how to test custom rails routes, so I would like to share it.
 
