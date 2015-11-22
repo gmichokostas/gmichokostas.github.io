@@ -13,10 +13,13 @@ task :new_post do
   if File.exists?("#{file}")
     raise 'file already exists'
   else
-    File.open(@file, 'w') do |file|
-      file.write(
-        "---\nlayout: post\ntitle: \"#{@name}\"\ndate: #{DATE} #{TIME}\ncategories:\n---\n"
-      )
+    File.open(@file, 'a+') do |file|
+      file << "---\n"
+      file << "layout: post\n"
+      file << "title: \"#{@name}\"\n"
+      file << "date: #{DATE} #{TIME}\n"
+      file << "categories: \n"
+      file << "---\n"
     end
   end
 end
