@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am [RubyOnRails](http://rubyonrails.org/){:target="_blank"} Trainee at [d:evolute](http://devolute.org/en/service){:target="_blank"} based in Berlin.
+I enjoy web development, learn new programming languages and technologies.<br>
+Currently doing RubyOnRails, Clojure and a little bit of VueJS for [GoMore](https://gomore.dk){:target='blank'}.
 
-I enjoy web development, learn new programming languages and technologies.
